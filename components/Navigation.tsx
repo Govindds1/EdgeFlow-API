@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { Github, Code } from 'lucide-react';
 
+const REPO_URL = 'https://github.com/Govindds1/EdgeFlow-API';
+
 export default function Navigation() {
   return (
     <nav className="flex items-center justify-between px-6 py-4 border-b border-gray-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
@@ -16,7 +18,7 @@ export default function Navigation() {
 
       {/* Center: Utility Links for Evaluator */}
       <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
-        <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank" rel="noreferrer" className="hover:text-black transition flex items-center gap-2">
+        <a href={REPO_URL} target="_blank" rel="noreferrer" className="hover:text-black transition flex items-center gap-2">
           <Github className="w-4 h-4"/> 
           Source Code
         </a>
@@ -32,7 +34,7 @@ export default function Navigation() {
           Govind Raj • SRMIST
         </div>
         <a 
-          href="https://github.com/YOUR_USERNAME/YOUR_REPO" 
+          href={REPO_URL} 
           target="_blank" 
           rel="noreferrer" 
           className="px-4 py-2 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-800 transition shadow-sm"
