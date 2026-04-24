@@ -1,4 +1,4 @@
-# EdgeFlow API & Graph Processor 🚀
+# EdgeFlow API & Graph Processor 
 **SRM Full Stack Engineering Challenge Submission**
 
 A high-performance, developer-centric tool for processing hierarchical graph data structures. This project features a robust Next.js API backend and a sleek, macOS-inspired dashboard for real-time visualization and testing.
@@ -12,9 +12,9 @@ A high-performance, developer-centric tool for processing hierarchical graph dat
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🧠 Intelligent Graph Engine
+###  Intelligent Graph Engine
 - **O(N) Complexity:** Efficient single-pass traversal to construct tree hierarchies.
 - **Cycle Detection:** Automatically identifies and marks pure cycles (e.g., A→B, B→A) to prevent infinite loops.
 - **The Diamond Rule:** Intelligently handles multi-parent nodes by prioritizing the first-encountered edge and discarding subsequent conflicting parents.
